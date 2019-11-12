@@ -1,0 +1,25 @@
+GET http://localhost:3000/api/v1/employees?name=Albert&age=1&page=2
+
+###
+POST  http://localhost:3000/api/v1/employees
+Content-Type: application/json
+
+{
+    "name": "Albert",
+    "DepartmentId": 1
+}
+
+###
+POST  http://localhost:3000/api/v1/departments
+Content-Type: application/json
+
+{
+    "name": "DD"
+}
+
+
+###
+PUT  http://localhost:3000/
+
+###
+DELETE  http://localhost:3000/
